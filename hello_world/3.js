@@ -43,7 +43,7 @@ alert(Number(false)); // 0
 alert(Boolean(1)); // true
 alert(Boolean(0)); // false
 
-alert(Boolean('hi')) // true
+alert(Boolean('hi')) // truehttps://github.com/Mmm-max/javascript.git
 alert(Boolean('')) // false
 alert(Boolean(' ')) // true
 */
