@@ -1,0 +1,64 @@
+body {
+    background: lightcoral;
+}
+
+.mainContainer {
+    position: relative;
+    width: 250px;
+    height: 320px;
+    background: green;    
+}
+
+h1 {
+    color:blueviolet;
+    text-align: center;
+} 
+.paper {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 150px);
+    grid-auto-rows: minmax(150px, 100px);
+    gap: 10px;
+    grid-gap: 3px;
+    margin: auto;
+}
+
+.card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: yellow;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    background: yellow;
+    align-content: center;
+    text-align: center;
+    text-justify: center;
+}
+
+p {
+    text-align: center;
+    font-size: 2em;
+    color: gray;
+}
+.back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    background: blue;
+    color: gray;
+    transform: rotateY(180deg);
+
+}
