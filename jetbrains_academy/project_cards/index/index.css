@@ -10,6 +10,7 @@ body {
     gap: 10px;
     grid-gap: 3px;
     margin: auto;
+    
 }
 
 .container {
@@ -49,8 +50,7 @@ body {
     font-size: 3em;
     font-family: Arial, cursive;
     position: absolute;
-    transform: rotateY(180deg)
-
+    transform: rotateY(180deg);
 }
 
 h1 {

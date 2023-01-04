@@ -30,6 +30,7 @@ h1 {
     background: yellow;
     transform-style: preserve-3d;
     transition: all 1s ease;
+    border-radius: 25px;
 }
 
 .card:hover {
@@ -42,13 +43,15 @@ h1 {
     width: 100%;
     backface-visibility: hidden;
     background: yellow;
-    align-content: center;
-    text-align: center;
-    text-justify: center;
+    /* align-content: center; */
+    /* text-align: center; */
+    /* text-justify: center; */
+    border-radius: 25px;
 }
 
 p {
     text-align: center;
+    text-justify: center;
     font-size: 2em;
     color: gray;
 }
@@ -60,5 +63,6 @@ p {
     background: blue;
     color: gray;
     transform: rotateY(180deg);
+    border-radius: 25px;
 
 }
